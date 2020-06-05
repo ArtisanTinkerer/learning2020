@@ -8,7 +8,9 @@ module.exports = {
         fontFamily: { sans: ['Inter var'] },
     }
   },
-  variants: {},
+  variants: {
+      backgroundColor:['responsive','hover','focus','active']
+  },
   plugins: [
     require('@tailwindcss/custom-forms'),
       require('@tailwindcss/ui')
