@@ -2,4 +2,31 @@
 
 @tailwind components;
 
+.btn {
+    @apply shadow-lg px-5 py-3 rounded-lg  text-sm uppercase tracking-wider font-semibold
+}
+
+.btn:hover {
+    @apply bg-orange-400;
+}
+.btn:focus {
+    @apply outline-none shadow-outline;
+}
+.btn:active {
+    @apply bg-orange-600;
+}
+
+.btn-orange {
+   @apply bg-orange-500
+}
+
+.btn-gray {
+   @apply bg-gray-300
+}
+
+
+
+
+
+
 @tailwind utilities;
